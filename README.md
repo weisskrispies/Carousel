@@ -4,6 +4,8 @@ CodePath Week 2 Assignment
 Time Spent: 10 hours (so far)
 
 ## Stories Completed
+*(note: not all of these are done, I will just be deleting the ones I don't get to)*
+
 
 *Welcome Screen*
 * Optional: Photo tiles move with scrolling
