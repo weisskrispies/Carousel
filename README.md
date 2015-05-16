@@ -3,7 +3,7 @@ CodePath Week 2 Assignment
 
 Time Spent: 10 hours (so far)
 
-Stories Completed
+## Stories Completed
 
 *Welcome Screen*
 * Optional: Photo tiles move with scrolling
@@ -45,3 +45,5 @@ Stories Completed
     * Share a photo
 * Optional: Upon completion of the events, mark them green.
 * Optional: When all events are completed, dismiss the banner.
+
+''
