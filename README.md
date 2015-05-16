@@ -7,6 +7,7 @@ Time Spent: 10 hours (so far)
 
 *Welcome Screen*
 * Optional: Photo tiles move with scrolling
+
 *Sign In*
 *Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up.
 * User sees an error alert when no email is present or no password is present.
@@ -46,4 +47,4 @@ Time Spent: 10 hours (so far)
 * Optional: Upon completion of the events, mark them green.
 * Optional: When all events are completed, dismiss the banner.
 
-''
+//
