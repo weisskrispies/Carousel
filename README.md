@@ -3,11 +3,11 @@ CodePath Week 2 Assignment
 
 Time Spent: 10 hours (so far)
 
-*Stories Completed*
+h2. Stories Completed
 
-Welcome Screen
+*Welcome Screen*
 * Optional: Photo tiles move with scrolling
-Sign In
+*Sign In*
 *Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up.
 * User sees an error alert when no email is present or no password is present.
 * User sees a loading screen upon tapping the Sign In button.
@@ -15,7 +15,8 @@ Sign In
 * User is taken to the tutorial screens upon entering the correct email/password combination.
 * Optional: When the keyboard is visible, if the user pulls down on the scrollview, it will dismiss the keyboard.
 * Optional: On appear, scale the form up and fade it in.
-Sign Up
+
+*Sign Up* 
 * Optional: Tapping in the form reveals the keyboard and shifts the scrollview and "Create a Dropbox" button up.
 * Optional: Tapping the Agree to Terms checkbox selects the checkbox.
 * Optional: Tapping on Terms shows a webview with the terms.
