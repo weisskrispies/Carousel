@@ -4,7 +4,6 @@ CodePath Week 2 Assignment
 Time Spent: 14 hours
 
 ## Stories Completed
-*(note: not all of these are done, I will just be deleting the ones I don't get to)*
 
 
 *Welcome Screen*
@@ -41,6 +40,9 @@ Time Spent: 14 hours
 *Learn more about Carousel*
 * Optional: Show the "Learn more about Carousel" button in the photo timeline.
 * Optional: Tap the X to dismiss the banner
+
+
+
 
 <img src="https://lh3.googleusercontent.com/-x9ShjHGoglQ/VVmJRhvtbMI/AAAAAAAADPs/yA_sDjPDg7Y/s2048/Carousel.gif" alt="" width="300">
 
