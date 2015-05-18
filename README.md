@@ -26,7 +26,7 @@ Time Spent: 14 hours
 *Tutorial Screens*
 * User can page between the screens
 * Optional: User can page between the screens with updated dots 
-* Optional: Upon reaching the 4th page, hide the dots and show the "Take Carousel for a Spin" button. (??)
+* Optional: Upon reaching the 4th page, hide the dots and show the "Take Carousel for a Spin" button.
 
 *Image Timeline*
 * Display a scrollable view of images.
