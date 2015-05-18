@@ -1,7 +1,7 @@
 # Carousel
 CodePath Week 2 Assignment
 
-Time Spent: 10 hours (so far)
+Time Spent: 14 hours
 
 ## Stories Completed
 *(note: not all of these are done, I will just be deleting the ones I don't get to)*
@@ -17,7 +17,6 @@ Time Spent: 10 hours (so far)
 * User sees an error alert when entering the wrong email/password combination.
 * User is taken to the tutorial screens upon entering the correct email/password combination.
 * Optional: When the keyboard is visible, if the user pulls down on the scrollview, it will dismiss the keyboard.
-* Optional: On appear, scale the form up and fade it in.
 
 *Sign Up* 
 * Optional: Tapping in the form reveals the keyboard and shifts the scrollview and "Create a Dropbox" button up.
@@ -42,11 +41,6 @@ Time Spent: 10 hours (so far)
 *Learn more about Carousel*
 * Optional: Show the "Learn more about Carousel" button in the photo timeline.
 * Optional: Tap the X to dismiss the banner
-* Optional: Track the 3 events:
-    * View a photo full screen
-    * Swipe left and right
-    * Share a photo
-* Optional: Upon completion of the events, mark them green.
-* Optional: When all events are completed, dismiss the banner.
 
+<img src="https://lh3.googleusercontent.com/-x9ShjHGoglQ/VVmJRhvtbMI/AAAAAAAADPs/yA_sDjPDg7Y/s2048/Carousel.gif" alt="" width="300">
 
