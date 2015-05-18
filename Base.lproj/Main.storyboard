@@ -16,7 +16,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-366" y="770"/>
+            <point key="canvasLocation" x="-366" y="650"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8mH-gQ-Lms">
@@ -42,7 +42,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="fAS-Ur-kKb">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" id="fAS-Ur-kKb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
@@ -50,28 +50,28 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile1" id="feV-kU-n73">
-                                        <rect key="frame" x="47" y="750" width="153" height="152"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile2" id="8YM-uO-m2f">
-                                        <rect key="frame" x="200" y="750" width="76" height="75"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile3" id="VGP-Q9-3Z0">
-                                        <rect key="frame" x="200" y="827" width="76" height="76"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile4" id="1U2-J9-Ywc">
-                                        <rect key="frame" x="47" y="903" width="76" height="76"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile5" id="9M1-Qg-D1w">
                                         <rect key="frame" x="124" y="904" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile6" id="0Lk-Uw-Wu4">
                                         <rect key="frame" x="200" y="903" width="76" height="75"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile3" id="VGP-Q9-3Z0">
+                                        <rect key="frame" x="200" y="826" width="76" height="76"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile4" id="1U2-J9-Ywc">
+                                        <rect key="frame" x="47" y="903" width="76" height="76"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile2" id="8YM-uO-m2f">
+                                        <rect key="frame" x="200" y="750" width="76" height="75"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile1" id="feV-kU-n73">
+                                        <rect key="frame" x="47" y="750" width="153" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TGt-aK-9pB" userLabel="Sign In Button">
@@ -107,6 +107,12 @@
                     <connections>
                         <outlet property="introImageView" destination="dHh-3M-hjy" id="7hu-z6-fPV"/>
                         <outlet property="scrollView" destination="fAS-Ur-kKb" id="d0Z-7a-g3c"/>
+                        <outlet property="welcomeImage1" destination="feV-kU-n73" id="E08-Lc-tmk"/>
+                        <outlet property="welcomeImage2" destination="8YM-uO-m2f" id="lmE-tT-a0O"/>
+                        <outlet property="welcomeImage3" destination="VGP-Q9-3Z0" id="v9V-fK-BGr"/>
+                        <outlet property="welcomeImage4" destination="1U2-J9-Ywc" id="Vme-JH-MhW"/>
+                        <outlet property="welcomeImage5" destination="9M1-Qg-D1w" id="fQl-IA-TaC"/>
+                        <outlet property="welcomeImage6" destination="0Lk-Uw-Wu4" id="K9d-Dn-J8u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVC-IR-uz7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -315,15 +321,15 @@
             <objects>
                 <viewController id="xy7-An-LkN" customClass="FeedViewController" customModule="Carousel" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oec-vi-7L3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1665"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vye-4w-ZhB">
-                                <rect key="frame" x="0.0" y="63" width="326" height="1568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                <rect key="frame" x="0.0" y="63" width="320" height="469"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="feed" id="hH7-Hh-NiD">
-                                        <rect key="frame" x="0.0" y="-528" width="320" height="2623"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="feed" id="EDl-5g-ZEr">
+                                        <rect key="frame" x="2" y="0.0" width="320" height="1564"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -375,16 +381,14 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="scrubber" id="nmP-Zq-9oq">
-                                <rect key="frame" x="0.0" y="1629" width="320" height="36"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="scrubber" id="sgR-Pl-wbz">
+                                <rect key="frame" x="0.0" y="532" width="320" height="36"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="UcN-yg-tjB"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1665"/>
                     <connections>
                         <outlet property="bannerImageView" destination="xI5-he-JiG" id="PQt-c3-MG7"/>
                         <outlet property="dismissBannerButton" destination="wkZ-3j-Y8w" id="zY0-5H-xKW"/>
@@ -393,7 +397,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j6A-jL-RBt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3144" y="912.5"/>
+            <point key="canvasLocation" x="3136" y="366"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="RJC-sj-Kh9">
@@ -724,6 +728,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ecM-pG-ABx"/>
+        <segue reference="en6-2m-Tud"/>
     </inferredMetricsTieBreakers>
 </document>

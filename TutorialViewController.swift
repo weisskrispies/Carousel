@@ -30,10 +30,10 @@ class TutorialViewController: UIViewController, UIScrollViewDelegate {
     
 
     func scrollViewDidEndDecelerating(scrollView: UIScrollView){
-        var page = Int(scrollView.contentOffset.x / 320)
+        var page : Int = Int(round(scrollView.contentOffset.x / 320))
         pager.currentPage = page
         
-        if pager.currentPage >= 2 {
+        if pager.currentPage == 3 {
             pager.alpha = 0
             UIView.animateWithDuration(0.3, animations: {
                 self.buttonImage.alpha = 1

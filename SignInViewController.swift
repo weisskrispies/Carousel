@@ -85,7 +85,7 @@ class SignInViewController: UIViewController {
         view.endEditing(true)
 
         if emailField.text.isEmpty || passwordField.text.isEmpty {
-            var alertView = UIAlertView(title: "Oops!", message: "Dude, you need to enter some more deets", delegate: nil, cancelButtonTitle: "Got it")
+            var alertView = UIAlertView(title: "Oops!", message: "Dude, enter some more deets", delegate: nil, cancelButtonTitle: "Got it")
             alertView.show()
         } else {
             alert.show()
